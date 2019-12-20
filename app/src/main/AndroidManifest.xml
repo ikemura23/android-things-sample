@@ -4,7 +4,9 @@
     package="com.example.android_things_sample"
     >
 
-    <application android:label="@string/app_name">
+    <application android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
         <uses-library android:name="com.google.android.things" />
 
         <activity android:name=".MainActivity">
